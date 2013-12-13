@@ -1,0 +1,341 @@
+.{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	
+}
+*{
+	overflow:hidden;
+}
+
+.head{
+	background-color:#07025c;
+	margin-left:30px;
+}
+bg2{
+	padding-top:25px;
+	padding-left:10px;
+}
+.navigation{
+	background-color:#07025c;
+	margin-left:30px;
+	height:auto;
+	padding:10px;
+	list-style-type:none;
+}
+.navigation li{
+	display:inline;
+	padding-top:5px;
+	padding-left:80px;
+	padding-right:80px;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+}
+.t{
+	background-image:url(images/bg2.jpg);
+	height:500px;
+	width:100%
+	border: 1px  black solid;
+	margin-left:30px;
+}
+.table0{
+	width:1000px;	
+	background-image:url(images/bg2.jpg);
+	margin-left:30px;
+	height:450px;
+}
+
+.table1{
+	border-color: #FBFBFB;
+	margin-top:100px;
+	padding-bottom:30px;	
+	font-size:30px;
+	padding:20px;
+	/*border: 2px #909090 solid;*/
+	float:left;
+	width:200px;
+	height:320px;
+	
+}
+.table12{
+	position:absolute;
+	width:780px;
+	height:auto;
+	margin-bottom:20px;
+}
+.table3{
+	margin-top:50px;
+	position:relative;
+	font-size:30px;
+/*	border: 2px #909090 solid;*/
+	float:right;
+	width:220px;
+	
+	padding:20px;
+	padding-left:0px;
+	height:280px;
+}
+.table2{
+	margin-top:20px;
+	position:relative;
+	margin-left:40px;
+	margin-right:0px;
+	padding:20px;
+	padding-right:230px;
+	font-size:30px;
+/*	border: 2px #909090 solid;*/
+	float:left;
+	height:380px;
+}
+.table2 h1{
+	margin-left:30px;
+}
+.navigation a:link { 
+color:white; 
+text-decoration:none; 
+} 
+.navigation a:visited { 
+color:white; 
+text-decoration:none; 
+}
+.table3 a:visited { 
+color:##1570A6; 
+text-decoration:none; 
+}
+.table3 a:link { 
+color:black; 
+text-decoration:underline; 
+} 
+
+.tx{
+	margin-left:30px;
+}
+.personal{
+	font-family: Georgia;
+	color:#00008B;
+	font-weight:bold;
+	font-size:16px;
+	margin-bottom:15px;
+	margin-left:10px;
+}
+a{
+	margin-left:15px;
+	font-family: Georgia;
+	color:#00008B;
+	margin:10px;
+	font-weight:bold;
+	font-size:18px;
+}
+h{
+	font-family: Georgia;
+	color:#00008B;
+	margin:10px;
+	font-weight:bold;
+	font-size:18px;
+}
+.link{
+	margin-bottom:30px;
+}
+h1{
+	
+	font-family:Arial;
+	color:#00008B;
+	font-weight:bold;
+	font-size:24px;
+	margin:40px;
+	margin-left:15px;
+}
+
+.table2 li{
+	font-family: Georgia;
+	color:#00008B;
+	font-weight:bold;
+	font-size:18px;
+	margin:10px;
+	margin-left:0px;
+
+}
+.photo{
+	margin:30px;
+}
+.album0{
+	border:2px white solid;
+	width:1000px;
+	height:250px;
+	margin:10px;
+	margin-left:0px;
+	margin-right:0px;
+	padding:20px;
+	padding-left:0px;
+}
+.myalbum{
+	background-color:#1570A6;
+	margin-left:0px;
+	height:auto;
+	padding:10px;
+}
+.album{
+	border:1px black solid;
+	width:200px;
+	height:250px;
+	margin:10px;
+	margin-right:40px;
+	margin-left:0px;
+	float:left;
+}
+.myalbum h{
+	color:white;
+}
+.footer{
+	font-size:16px;
+	color:black;
+	margin-bottom:0px;
+	text-align:center;
+}
+.album1{
+	border:0px black solid;
+	width:200px;
+	height:250px;
+	margin:10px;
+	margin-right:40px;
+	margin-left:0px;
+	float:left;
+}
+.album2{
+	background-image:url(images/album1.jpg);
+	border:1px black solid;
+	width:200px;
+	height:250px;
+	margin:10px;
+	margin-right:40px;
+	margin-left:0px;
+	float:left;
+}
+.album3{
+	background-image:url(images/album2.jpg);
+	border:1px black solid;
+	width:200px;
+	height:250px;
+	margin:10px;
+	margin-right:40px;
+	margin-left:0px;
+	float:left;
+}
+.album4{
+	background-image:url(images/album3.jpg);
+	border:1px black solid;
+	width:200px;
+	height:250px;
+	margin:10px;
+	margin-right:40px;
+	margin-left:0px;
+	float:left;
+}
+/*.album5{
+	background-image:url(images/album.jpg);
+	border:1px black solid;
+	width:200px;
+	height:250px;
+	margin:10px;
+	margin-right:40px;
+	margin-left:0px;
+	float:left;
+}
+.album6{
+	background-image:url(images/album.jpg);
+	border:1px black solid;
+	width:200px;
+	height:250px;
+	margin:10px;
+	margin-right:40px;
+	margin-left:0px;
+	float:left;
+}
+.album7{
+	background-image:url(images/album.jpg);
+	border:1px black solid;
+	width:200px;
+	height:250px;
+	margin:10px;
+	margin-right:40px;
+	margin-left:0px;
+	float:left;
+}
+.album8{
+	border:0px black solid;
+	width:200px;
+	height:250px;
+	margin:10px;
+	margin-right:40px;
+	margin-left:0px;
+	float:left;
+}*/
+/* anut */
+.pic1{
+	 margin-top:15px;
+	 width:1000px;
+	 margin-left:30px;
+	 height:750px;
+	background-image:url(images/aunt/1.jpg);
+}
+.pic7{
+	background-image:url(images/aunt/7.jpg);
+	width:1000px;
+	height:79px;
+	float:left;
+	margin:30px;
+}
+
+.pic23{
+	margin-top:30px;
+	margin-left:30px;
+	width:1000px;
+	height:467px;
+	
+}
+.pic2{
+	background-image:url(images/aunt/2.jpg);
+	width:665px;
+	height:430px;
+	float:left;
+	margin-right:35px;
+}
+.pic3{
+	background-image:url(images/aunt/3.jpg);
+	width:300px;
+	height:467px;
+}
+.pic456{
+	width:1000px;
+	height:464px;
+	margin-left:30px;
+}
+.pic4{
+	background-image:url(images/aunt/4.jpg);
+	width:344px;
+	height:464px;
+	float:left;
+	margin-right:15px;
+}
+.pic5{
+	background-image:url(images/aunt/5.jpg);
+	width:330px;
+	height:441px;
+	float:left;
+	margin-top:25px;
+	margin-right:13px;
+}
+.pic6{
+	background-image:url(images/aunt/6.jpg);
+	width:298px;
+	height:408px;
+	float:left;
+	margin-top:56px;
+}
+.pic8{
+	background-image:url(images/aunt/8.jpg);
+	width:900px;
+	height:200px;
+	margin:10px;
+}
